@@ -25,7 +25,7 @@ public class Main {
             .get(ctx -> ctx.render(groovyTemplate("index.html")))
 
             .get("hello", ctx -> {
-              ctx.render("Hello!");
+              ctx.render("Hello! Ali KÖPRÜLÜ test denemesi");
             })
 
             .get("db", ctx -> {
